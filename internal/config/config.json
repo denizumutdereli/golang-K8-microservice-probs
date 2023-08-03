@@ -1,0 +1,20 @@
+{
+  "APP_NAME": "Kubernetes Stream Microservice with probs",
+  "GO_SERVICE_PORT": "3000",
+  "SYSLOG": "false",
+  "HTTPS": "false",
+  "TEST": "true",
+  "KAFKA_BROKERS": ["127.0.0.1:9092"],
+  "KAFKA_CONSUMER_GROUP": "service-clients-id",
+  "KAFKA_CONSUME_TOPICS":["topic1"],
+  "KAFKA_PRODUCE_TOPIC":"topic2",
+  "REDIS_PORT":6379,
+  "REDIS_SECRET_KEY":"@1234567",
+  "REDIS_URL":"redis://localhost:6379/0",
+  "WSSERVER_URL": "ws://localhost:3001",
+  "WSPING_PERIOD":10000,
+  "WSPING_MAX_ERROR":5,
+  "NATS_URL": ["nats://127.0.1.1:4222", "nats://127.0.1.1:4223", "nats://127.0.1.1:4224"],
+  "MAX_RETRY":5,
+  "MAX_WAIT":2
+}
